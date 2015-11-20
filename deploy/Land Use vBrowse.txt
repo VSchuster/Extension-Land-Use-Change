@@ -1,0 +1,10 @@
+LandisData   Extension
+
+Name         "Land Use vBrowse"
+Version      "1.0 (official release)"
+Type         "disturbance:land use"
+Assembly     Landis.Extension.LandUse-vBrowse
+Class        Landis.Extension.LandUse.Main
+Description  "Land Use and Land Cover Change"
+UserGuide    "Land Use v1.0 - User Guide.pdf"
+CoreVersion  6.0
