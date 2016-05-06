@@ -29,9 +29,9 @@ Source: C:\Program Files\LANDIS-II\v6\bin\extensions\Landis.Library.BiomassHarve
 Source: C:\Program Files\LANDIS-II\v6\bin\extensions\Landis.Library.SiteHarvest-v1.dll; DestDir: {app}\bin\extensions
 
 ; The user guide
-;#define UserGuideSrc ExtensionName + " vX.Y - User Guide.pdf"
-;#define UserGuide    StringChange(UserGuideSrc, "X.Y", MajorMinor)
-;Source: docs\{#UserGuideSrc}; DestDir: {app}\docs; DestName: {#UserGuide}
+#define UserGuideSrc ExtensionName + " vX.Y - User Guide.pdf"
+#define UserGuide    StringChange(UserGuideSrc, "X.Y", MajorMinor)
+Source: docs\{#UserGuideSrc}; DestDir: {app}\docs; DestName: {#UserGuide}
 
 ; Sample input files
 Source: examples\*; DestDir: {app}\examples\{#ExtensionName}; Flags: recursesubdirs
